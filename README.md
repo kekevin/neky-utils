@@ -38,6 +38,7 @@ var _type =  require('neky-utils/type');
 <script src="../node_modules/neky-utils/dist/index.js"></script>
 // _u Global injection
 // _u函数将会全局注入
+// window._u
 ```
 
 # 使用方法//Usage
