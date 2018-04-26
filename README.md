@@ -1,6 +1,9 @@
 # neky-utils
 Encapsulation of common tool classes。
+
 常用工具类封装。
+
+[Wiki](https://github.com/suguangwen/neky-utils/wiki)
 
 # 安装//Install
 
@@ -8,7 +11,7 @@ Encapsulation of common tool classes。
 npm install neky-utils --save
 ```
 
-###ES6
+### ES6
 
 ```JavaScript
 import _u from 'neky-utils'
@@ -19,7 +22,7 @@ import _type from 'neky-utils/type'
 // 单独使用type类
 ```
 
-###CommonJS
+### CommonJS
 
 ```JavaScript
 var _u =  require('neky-utils');
@@ -30,7 +33,7 @@ var _type =  require('neky-utils/type');
 // 单独使用type类
 ```
 
-###直接引用//Direct include
+### 直接引用//Direct include
 
 ```JavaScript
 <script src="../node_modules/neky-utils/dist/index.js"></script>
@@ -48,7 +51,6 @@ var _type =  require('neky-utils/type');
     // false
 ```
 
-[Wiki](https://github.com/suguangwen/neky-utils/wiki)
 
 # License
 
