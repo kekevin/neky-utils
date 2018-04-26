@@ -1,6 +1,5 @@
 require('babel-core/register');
-let neky_utils = require('./modules');
-console.log(1)
+let _u = require('./modules');
 
 let f = function(){}//1
 let s = 'aaaa'//2
@@ -34,6 +33,6 @@ let sk = ''//20
 
 let data = [f,s,m,sm,ar,j,aj,aj2,js,jf,ja,nu,nus,un,uns,t,fs,date,dates,sk]
 for (let i = 1; i <= data.length; i++) {
-    let a = neky_utils.type.isPlainObject(data[i -1])
+    let a = _u.type.isPlainObject(data[i -1])
     console.log(i + ':' + a)
 }
