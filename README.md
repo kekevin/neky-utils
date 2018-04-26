@@ -15,6 +15,7 @@ npm install neky-utils --save
 
 ```JavaScript
 import _u from 'neky-utils'
+
 import type from 'neky-utils/type'
 import {type} from 'neky-utils'
 // type Use alone
@@ -25,8 +26,7 @@ import {type} from 'neky-utils'
 
 ```JavaScript
 var _u =  require('neky-utils');
-// _u Global injection
-// _u函数将会全局注入
+
 var _type =  require('neky-utils/type');
 // _type Use alone
 // 单独使用type类
